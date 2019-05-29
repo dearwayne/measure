@@ -25,6 +25,8 @@ module.exports = {
   'number-fixed.label.one-pos-decimals': 'Reserve one decimal',
   'number-fixed.label.two-pos-decimals': 'Reserve tow decimal',
   'number-fixed.label.three-pos-decimals': 'Reserve three decimal',
+  'header.btn.download': 'Download',
+  'header.btn.download.placeholder': 'Download PSD File',
   'header.btn.import': 'Import',
   'header.btn.import.placeholder.no-psd': 'Allow html and svg files',
   'header.btn.import.placeholder.psd': 'Allow psd, html and svg files',

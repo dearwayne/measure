@@ -24,6 +24,8 @@ module.exports = {
   'number-fixed.label.one-pos-decimals': '一位小数',
   'number-fixed.label.two-pos-decimals': '两位小数',
   'number-fixed.label.three-pos-decimals': '三位小数',
+  'header.btn.download': '下载',
+  'header.btn.download.placeholder': '下载PSD文件',
   'header.btn.import': '导入',
   'header.btn.import.placeholder.no-psd': '导入支持 html、svg',
   'header.btn.import.placeholder.psd': '导入支持 psd、html、svg',

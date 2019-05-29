@@ -73,9 +73,11 @@ export default class Header extends React.Component {
     return (
       <div className={cn(c('container'), className)}>
         <div className={c('left')}>
-          {<div className={c('logo')}>
-            <span className={c('logo-img')}/>
-          </div>}
+          {
+            <div className={c('logo')}>
+              <span className={c('logo-img')} />
+            </div>
+          }
           <Select
             className={c('unit', 'item')}
             isSearchAble={false}
@@ -195,6 +197,17 @@ export default class Header extends React.Component {
                 {btn.content}
               </Button>
             ))}
+
+          <Button
+            title={i18n('header.btn.download.placeholder')}
+            onClick={() => {
+              window.location.href = 'download/' + this.local.title
+            }}
+            className={c('item')}
+          >
+            {i18n('header.btn.download')}
+          </Button>
+
           <Button
             title={
               !!getPsdToHtml()
@@ -215,6 +228,7 @@ export default class Header extends React.Component {
             <input type="file" style={{ display: 'none' }} />
             {i18n('header.btn.import')}
           </Button>
+
           <Select
             name="language"
             className={c('language', 'item')}

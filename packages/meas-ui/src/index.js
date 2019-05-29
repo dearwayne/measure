@@ -17,7 +17,6 @@ import { setLanguage } from './i18n'
 require('./_style/index.less')
 
 class Measure extends App {
-
   @autorun
   autoLanguage() {
     // console.log('autoLanguage', this.header.language)
@@ -97,6 +96,7 @@ class Measure extends App {
             if (typeof document !== 'undefined') {
               document.title = `${title} - ${app.header.logo || 'Measure UI'}`
             }
+            app.header.title = title
             app.inforBar.assign({
               title,
               position: {

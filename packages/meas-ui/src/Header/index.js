@@ -26,7 +26,8 @@ export default class Header extends Root {
   ]
 
   @storageSync
-  @observable language = getCurrentLanguage()
+  @observable
+  language = getCurrentLanguage()
 
   @observable
   unitOptions = [
@@ -70,6 +71,9 @@ export default class Header extends Root {
 
   @observable
   buttons = []
+
+  @observable
+  title = ''
 
   @action
   updateZoom(delta = 0) {
