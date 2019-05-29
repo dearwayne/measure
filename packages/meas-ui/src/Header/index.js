@@ -43,7 +43,7 @@ export default class Header extends Root {
 
   @storageSync
   @observable
-  unit = 'rem'
+  unit = 'px'
 
   @storageSync
   @observable

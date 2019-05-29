@@ -181,7 +181,7 @@ MeasureExport.defaultOptions = {
   compilationSuccessInfo: undefined,
   distDir: nps.join(process.cwd(), 'dist'),
   glob: ['**/*.{psd,html,htm}'],
-  language: 'en-us',
+  language: 'zh-cn',
   hot: true,
   webpackConfigUpdater: config => {
     return config

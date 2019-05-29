@@ -40,7 +40,7 @@
   "dependencies": {
     "caporal": "^0.10.0",
     "express": "^4.16.3",
-    "measure-export": "^0.5.2",
+    "measure-export": "file:../measure-export",
     "update-notifier": "^2.5.0"
   },
   "gitHead": "32b13af2ab50d7b2aab17a25ae742a8edbbd1a4d"

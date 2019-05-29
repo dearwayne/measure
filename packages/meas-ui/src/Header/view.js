@@ -201,7 +201,7 @@ export default class Header extends React.Component {
           <Button
             title={i18n('header.btn.download.placeholder')}
             onClick={() => {
-              window.location.href = 'download/' + this.local.title
+              window.location.href = this.local.title
             }}
             className={c('item')}
           >
