@@ -249,13 +249,6 @@ export default class Header extends React.Component {
             value={language}
             options={langOptions}
           />
-
-          <a
-            href={'https://github.com/imcuttle/measure'}
-            title={'Github'}
-            target={'_blank'}
-            className={c('gh', 'item')}
-          />
         </div>
       </div>
     )
