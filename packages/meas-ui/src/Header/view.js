@@ -201,7 +201,7 @@ export default class Header extends React.Component {
           <Button
             title={i18n('header.btn.download.slices.placeholder')}
             onClick={() => {
-              window.location.href = this.local.title.toLowerCase().split('.psd')[0] + '.zip'
+              window.location.href = this.local.title.split(/.psd/i)[0] + '.zip'
             }}
             className={c('item')}
           >
